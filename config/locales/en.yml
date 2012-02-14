@@ -8,4 +8,4 @@ en:
       long: "%a %b %d"
   person:
     update:
-      flash: "Thank you!"
+      flash: "Thank you - You will get a zero commitment date by blitz tomorrow afternoon!"
