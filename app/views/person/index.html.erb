@@ -10,7 +10,7 @@ How this works: Put in your gender and what you are looking for, and we will set
 <%= form_for  @person  do |f|%>
 <div class="valentines">
     I am a <%= f.select(:gender, [["Female looking for a Male","fm"],
-                                  ["Male looking for a Female", "mf"],["Male looking for a Male","mm"], ["Female looking for a Female","ff"]] ) %>   <%= f.submit "Save"%>
+                                  ["Male looking for a Female", "mf"],["Male looking for a Male","mm"], ["Female looking for a Female","ff"],["No Date at all please","00"]] ) %>   <%= f.submit "Submit"%>
 
 </div>
 <% end %>
